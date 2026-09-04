@@ -8,6 +8,11 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  { repo: "AnujaJay-com", label: "Portfolio", url: "https://anujajay.com" },
-  { repo: "Solar-Analytics-Dashboard", label: "Solar Analytics" },
+  { repo: "AnujaJay-com", label: "Portfolio", url: "https://anujajay.com", monitor: 803914012 },
+  {
+    repo: "Solar-Analytics-Dashboard",
+    label: "Solar Analytics",
+    url: "https://solaredge.anujajay.com/",
+    monitor: 803914017,
+  },
 ];
